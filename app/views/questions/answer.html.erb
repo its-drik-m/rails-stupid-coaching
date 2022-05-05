@@ -1,0 +1,19 @@
+<%# Messages & Answers
+I am going to work, --> Great!
+If the message has a question mark ? at the end, --> Silly question, get dressed and go to work!.
+Otherwise the coach will answer I don't care, get dressed and go to work!
+%>
+<div class = card>
+  <h1>Stupid coaching</h1>
+  <div>
+    <div class = question-box>
+      <%= @question %>
+      <p>- You</p>
+    </div>
+
+    <div class = "coach-box">
+      <%= @answer %>
+      <p>- Coach</p>
+    </div>
+  </div>
+</div>

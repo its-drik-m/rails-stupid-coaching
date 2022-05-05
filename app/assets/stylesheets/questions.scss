@@ -1,0 +1,47 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+// SCSS SYNTAX
+$font-stack: Helvetica, sans-serif;
+$primary-color: rgb(17, 0, 255);
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font: 400% $font-stack;
+  color: $primary-color;
+}
+
+.card {
+  width: 40%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: center;
+  min-height: 50vh;
+}
+
+.question-box {
+  width: 90%;
+  padding: 20px 60px;
+  // color: #000000;
+  border-radius: 5px;
+  background-color: #646464;
+  justify-content: right;
+  margin-bottom: 20px;
+}
+
+.coach-box {
+  width: 90%;
+  padding: 20px 60px;
+  // color: #000000;
+  border-radius: 5px;
+  background-color: #1ed136;
+  justify-content: right;
+}
